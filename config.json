@@ -1,0 +1,86 @@
+{
+"Discord_Webhook_URL" : "",
+
+
+"ScPrime Install Path" : "/ScPrime",
+
+"Auto Run Daily" : true,
+    "Time To Run in 24h Format (00:00)" : "8:00",
+
+
+"Display Wallet Information" : true,
+    "Wallet status" : true,
+
+    "Height" : false,
+    "Confirmed Balance" : true,
+    "Unconfirmed Delta" : true,
+    "Exact" : false,
+    "Scprime Funds" : false,
+    "Scprimefund Claims" : false,
+
+    "Estimated Fee" : false,
+
+
+
+"Display Host Information" : true,
+    "General Info" : true,
+        "Provider ID" : false,
+        "Connectability Status" : true,
+        "Version" : false,
+
+
+    "Host Internal Settings" : false,
+        "acceptingcontracts" : true,
+        "maxdownloadbatchsize" : true,
+        "maxduration" : true,
+        "maxrevisebatchsize" : true,
+        "netaddress" : true,
+        "windowsize" : true,
+
+        "collateral" : true,
+        "collateralbudget" : true,
+        "maxcollateral" : true,
+
+        "minbaserpcprice" : true,
+        "mincontractprice" : true,
+        "mindownloadbandwidthprice" : true,
+        "minsectoraccessprice" : true,
+        "minstorageprice" : true,
+        "minuploadbandwidthprice" : true,
+
+        "ephemeralaccountexpiry" : true,
+        "maxephemeralaccountbalance" : true,
+        "maxephemeralaccountrisk" : true,
+
+
+    "Host Financials" : true,
+        "Contract Count" : true,
+        "Transaction Fee Compensation" : true,
+        "Potential Fee Compensation" : false,
+        "Transaction Fee Expenses" : false,
+
+        "Storage Revenue" : true,
+        "Potential Storage Revenue" : false,
+
+        "Locked Collateral" : true,
+        "Risked Collateral" : true,
+        "Lost Collateral" : true,
+
+        "Download Revenue" : true,
+        "Potential Download Revenue" : false,
+        "Upload Revenue" : true,
+        "Potential Upload Revenue" : false,
+
+
+    "RPC Stats" : false,
+        "Error Calls" : true,
+        "Unrecognized Calls" : true,
+        "Download Calls" : true,
+        "Renew Calls" : true,
+        "Revise Calls" : true,
+        "Settings Calls" : true,
+        "FormContract Calls" : true,
+
+
+    "Storage Folders" : true
+}
