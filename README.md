@@ -1,6 +1,9 @@
 # ScpDog
 A watchdog and logger to Discord for hosting ScPrime servers. Designed to work on Linux servers. This is only capable of sending the logs from the commands `spc host` and `spc wallet`.
 
+## Support
+If you need help, or just want to chat or see my other projects, you can join my Discord by clicking [here](https://discord.gg/XcQSa9YaVx). If you want to donate, you can [here](https://www.paypal.me/keaganlandfried). Thanks :)
+
 # Setting Up
 
 ## Download and Install
