@@ -203,7 +203,7 @@ while True:
       #get current time
       now = datetime.now()
       #sleep until time from config.json
-      time.sleep(int((timedelta(hours=24) - (now - now.replace(hour=int(configTime[0]), minute=int(configTime[1]), second=0, microsecond=0))).total_seconds() % (24 * 3600)))
+      time.sleep(int((timedelta(hours=24) - (now - now.replace(hour=int(configTime[0]), minute=int(configTime[1]), second=0, microsecond=0))).total_seconds() % (24 * 3600)) + 60)
     except Exception as ex:
       #get exception information
       exception_type, exception_object, exception_traceback = sys.exc_info()
